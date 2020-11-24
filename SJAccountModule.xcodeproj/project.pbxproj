@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD1DD2DD256D054000278199 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1DD2DC256D054000278199 /* AppDelegate.m */; };
+		AD1DD2E0256D054000278199 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1DD2DF256D054000278199 /* SceneDelegate.m */; };
+		AD1DD2E3256D054000278199 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1DD2E2256D054000278199 /* ViewController.m */; };
+		AD1DD2E6256D054000278199 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1DD2E4256D054000278199 /* Main.storyboard */; };
+		AD1DD2E8256D054100278199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1DD2E7256D054100278199 /* Assets.xcassets */; };
+		AD1DD2EB256D054100278199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1DD2E9256D054100278199 /* LaunchScreen.storyboard */; };
+		AD1DD2EE256D054100278199 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1DD2ED256D054100278199 /* main.m */; };
+		AD1DD2F8256D054100278199 /* SJAccountModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1DD2F7256D054100278199 /* SJAccountModuleTests.m */; };
+		AD1DD303256D054100278199 /* SJAccountModuleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1DD302256D054100278199 /* SJAccountModuleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD1DD2F4256D054100278199 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD1DD2D0256D054000278199 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD1DD2D7256D054000278199;
+			remoteInfo = SJAccountModule;
+		};
+		AD1DD2FF256D054100278199 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD1DD2D0256D054000278199 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD1DD2D7256D054000278199;
+			remoteInfo = SJAccountModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD1DD2D8256D054000278199 /* SJAccountModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJAccountModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1DD2DB256D054000278199 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD1DD2DC256D054000278199 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD1DD2DE256D054000278199 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		AD1DD2DF256D054000278199 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		AD1DD2E1256D054000278199 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD1DD2E2256D054000278199 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD1DD2E5256D054000278199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD1DD2E7256D054100278199 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD1DD2EA256D054100278199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD1DD2EC256D054100278199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1DD2ED256D054100278199 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD1DD2F3256D054100278199 /* SJAccountModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJAccountModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1DD2F7256D054100278199 /* SJAccountModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJAccountModuleTests.m; sourceTree = "<group>"; };
+		AD1DD2F9256D054100278199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1DD2FE256D054100278199 /* SJAccountModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJAccountModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1DD302256D054100278199 /* SJAccountModuleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJAccountModuleUITests.m; sourceTree = "<group>"; };
+		AD1DD304256D054100278199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD1DD2D5256D054000278199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1DD2F0256D054100278199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1DD2FB256D054100278199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD1DD2CF256D054000278199 = {
+			isa = PBXGroup;
+			children = (
+				AD1DD2DA256D054000278199 /* SJAccountModule */,
+				AD1DD2F6256D054100278199 /* SJAccountModuleTests */,
+				AD1DD301256D054100278199 /* SJAccountModuleUITests */,
+				AD1DD2D9256D054000278199 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD1DD2D9256D054000278199 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD1DD2D8256D054000278199 /* SJAccountModule.app */,
+				AD1DD2F3256D054100278199 /* SJAccountModuleTests.xctest */,
+				AD1DD2FE256D054100278199 /* SJAccountModuleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD1DD2DA256D054000278199 /* SJAccountModule */ = {
+			isa = PBXGroup;
+			children = (
+				AD1DD2DB256D054000278199 /* AppDelegate.h */,
+				AD1DD2DC256D054000278199 /* AppDelegate.m */,
+				AD1DD2DE256D054000278199 /* SceneDelegate.h */,
+				AD1DD2DF256D054000278199 /* SceneDelegate.m */,
+				AD1DD2E1256D054000278199 /* ViewController.h */,
+				AD1DD2E2256D054000278199 /* ViewController.m */,
+				AD1DD2E4256D054000278199 /* Main.storyboard */,
+				AD1DD2E7256D054100278199 /* Assets.xcassets */,
+				AD1DD2E9256D054100278199 /* LaunchScreen.storyboard */,
+				AD1DD2EC256D054100278199 /* Info.plist */,
+				AD1DD2ED256D054100278199 /* main.m */,
+			);
+			path = SJAccountModule;
+			sourceTree = "<group>";
+		};
+		AD1DD2F6256D054100278199 /* SJAccountModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD1DD2F7256D054100278199 /* SJAccountModuleTests.m */,
+				AD1DD2F9256D054100278199 /* Info.plist */,
+			);
+			path = SJAccountModuleTests;
+			sourceTree = "<group>";
+		};
+		AD1DD301256D054100278199 /* SJAccountModuleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD1DD302256D054100278199 /* SJAccountModuleUITests.m */,
+				AD1DD304256D054100278199 /* Info.plist */,
+			);
+			path = SJAccountModuleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD1DD2D7256D054000278199 /* SJAccountModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1DD307256D054100278199 /* Build configuration list for PBXNativeTarget "SJAccountModule" */;
+			buildPhases = (
+				AD1DD2D4256D054000278199 /* Sources */,
+				AD1DD2D5256D054000278199 /* Frameworks */,
+				AD1DD2D6256D054000278199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJAccountModule;
+			productName = SJAccountModule;
+			productReference = AD1DD2D8256D054000278199 /* SJAccountModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD1DD2F2256D054100278199 /* SJAccountModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1DD30A256D054100278199 /* Build configuration list for PBXNativeTarget "SJAccountModuleTests" */;
+			buildPhases = (
+				AD1DD2EF256D054100278199 /* Sources */,
+				AD1DD2F0256D054100278199 /* Frameworks */,
+				AD1DD2F1256D054100278199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD1DD2F5256D054100278199 /* PBXTargetDependency */,
+			);
+			name = SJAccountModuleTests;
+			productName = SJAccountModuleTests;
+			productReference = AD1DD2F3256D054100278199 /* SJAccountModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD1DD2FD256D054100278199 /* SJAccountModuleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1DD30D256D054100278199 /* Build configuration list for PBXNativeTarget "SJAccountModuleUITests" */;
+			buildPhases = (
+				AD1DD2FA256D054100278199 /* Sources */,
+				AD1DD2FB256D054100278199 /* Frameworks */,
+				AD1DD2FC256D054100278199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD1DD300256D054100278199 /* PBXTargetDependency */,
+			);
+			name = SJAccountModuleUITests;
+			productName = SJAccountModuleUITests;
+			productReference = AD1DD2FE256D054100278199 /* SJAccountModuleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD1DD2D0256D054000278199 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = windows;
+				TargetAttributes = {
+					AD1DD2D7256D054000278199 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					AD1DD2F2256D054100278199 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = AD1DD2D7256D054000278199;
+					};
+					AD1DD2FD256D054100278199 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = AD1DD2D7256D054000278199;
+					};
+				};
+			};
+			buildConfigurationList = AD1DD2D3256D054000278199 /* Build configuration list for PBXProject "SJAccountModule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD1DD2CF256D054000278199;
+			productRefGroup = AD1DD2D9256D054000278199 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD1DD2D7256D054000278199 /* SJAccountModule */,
+				AD1DD2F2256D054100278199 /* SJAccountModuleTests */,
+				AD1DD2FD256D054100278199 /* SJAccountModuleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD1DD2D6256D054000278199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1DD2EB256D054100278199 /* LaunchScreen.storyboard in Resources */,
+				AD1DD2E8256D054100278199 /* Assets.xcassets in Resources */,
+				AD1DD2E6256D054000278199 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1DD2F1256D054100278199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1DD2FC256D054100278199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD1DD2D4256D054000278199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1DD2E3256D054000278199 /* ViewController.m in Sources */,
+				AD1DD2DD256D054000278199 /* AppDelegate.m in Sources */,
+				AD1DD2EE256D054100278199 /* main.m in Sources */,
+				AD1DD2E0256D054000278199 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1DD2EF256D054100278199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1DD2F8256D054100278199 /* SJAccountModuleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1DD2FA256D054100278199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1DD303256D054100278199 /* SJAccountModuleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD1DD2F5256D054100278199 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD1DD2D7256D054000278199 /* SJAccountModule */;
+			targetProxy = AD1DD2F4256D054100278199 /* PBXContainerItemProxy */;
+		};
+		AD1DD300256D054100278199 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD1DD2D7256D054000278199 /* SJAccountModule */;
+			targetProxy = AD1DD2FF256D054100278199 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD1DD2E4256D054000278199 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1DD2E5256D054000278199 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD1DD2E9256D054100278199 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1DD2EA256D054100278199 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD1DD305256D054100278199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD1DD306256D054100278199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD1DD308256D054100278199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJAccountModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scienjoy.ios.SJAccountModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD1DD309256D054100278199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJAccountModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scienjoy.ios.SJAccountModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD1DD30B256D054100278199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJAccountModuleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scienjoy.ios.SJAccountModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SJAccountModule.app/SJAccountModule";
+			};
+			name = Debug;
+		};
+		AD1DD30C256D054100278199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJAccountModuleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scienjoy.ios.SJAccountModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SJAccountModule.app/SJAccountModule";
+			};
+			name = Release;
+		};
+		AD1DD30E256D054100278199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJAccountModuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scienjoy.ios.SJAccountModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SJAccountModule;
+			};
+			name = Debug;
+		};
+		AD1DD30F256D054100278199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJAccountModuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scienjoy.ios.SJAccountModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SJAccountModule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD1DD2D3256D054000278199 /* Build configuration list for PBXProject "SJAccountModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1DD305256D054100278199 /* Debug */,
+				AD1DD306256D054100278199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1DD307256D054100278199 /* Build configuration list for PBXNativeTarget "SJAccountModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1DD308256D054100278199 /* Debug */,
+				AD1DD309256D054100278199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1DD30A256D054100278199 /* Build configuration list for PBXNativeTarget "SJAccountModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1DD30B256D054100278199 /* Debug */,
+				AD1DD30C256D054100278199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1DD30D256D054100278199 /* Build configuration list for PBXNativeTarget "SJAccountModuleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1DD30E256D054100278199 /* Debug */,
+				AD1DD30F256D054100278199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD1DD2D0256D054000278199 /* Project object */;
+}
